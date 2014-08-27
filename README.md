@@ -4,7 +4,7 @@ I have written a pdf report for each project. Please take a look if you are inte
 Forgive me for not giving out the datasets because I am not allowed to. 
 
 
-1. Nonlinear mixed effect model
+1. [Nonlinear mixed effect model](https://github.com/thomastskng/Stats-Project/tree/master/Nonlinear-Regressions-and-mixed-effects-models)
 ----------------------------------
 I worked on developing a mixed effect model for a sensor device, which was created by Silicon Valley engineers and manufactured by companies in Asia. 
 
