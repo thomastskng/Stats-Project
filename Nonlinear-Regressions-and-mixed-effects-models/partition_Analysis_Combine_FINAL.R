@@ -30,9 +30,9 @@ source("partition_by_AfterWarmUp_DD.R")
 # use AfterWarmUp value given from CSV (LHS + RHS different lengths ) (no adjustments)
 
 
-par(mfrow = c(1,2))
-IndiviPlot(filtered_pid[15], newdf)
-Indivi_Partition_Matrix(filtered_pid[9], newdf)
+#par(mfrow = c(1,2))
+#IndiviPlot(filtered_pid[15], newdf)
+#Indivi_Partition_Matrix(filtered_pid[9], newdf)
 # 9,15,18,19,23,31,38,41,53,54,57,60,62,63,65,67
 abc <- Indivi_Partition_Matrix(filtered_pid[9], newdf)
 df1 <- abc[[1]]
@@ -57,6 +57,7 @@ ran <- function(){
 
 ran()
 
+abc <- Indivi_Partition_Matrix(filtered_pid[7], newdf)
 df1 <- abc[[1]]
 df2 <- abc[[2]]
 
@@ -222,7 +223,7 @@ drawCombineALL <- function(){
 		col_vec_plot <- col_vec[col_index]
 		
 		if(i == 1){
-			plot(x,y, type = "l", col = col_vec_plot, lwd = 0.3, xlab = "time (secs)" , ylab = "M", main = "fitted line of Level I of the Population model ( group by CP levels)")	
+			plot(x,y, type = "l", col = col_vec_plot, lwd = 0.3, xlab = "time (secs)" , ylab = "M", main = "fitted line of Level I of the Population model ( group by CP levels)",ylim = c(0,260))	
 		} else{
 			lines(x,y, type = "l", col = col_vec_plot, lwd = 0.3)
 		}	
@@ -296,15 +297,15 @@ drawCombineIndivi(7)
 #																		#
 #########################################################################
 
-lhs.nlme6 <- nlme(df1_measures ~ meanfuncLHS(df1_cp, decay_time, b0,b1,b2) , 
-			fixed = list(b0 ~ df1_cp, b1 ~ 1, b2 ~ 1),
-			random = b0 + b1 + b2 ~ 1| df1_condition /df1_subject,
-			data = df1,
+#lhs.nlme6 <- nlme(df1_measures ~ meanfuncLHS(df1_cp, decay_time, b0,b1,b2) , 
+#			fixed = list(b0 ~ df1_cp, b1 ~ 1, b2 ~ 1),
+#			random = b0 + b1 + b2 ~ 1| df1_condition /df1_subject,
+#			data = df1,
 			#start = list(fixed = c(b0 = 1.98, 0,b1 = 5.5,b2 = -0.25,0.5)),
-			start = list(fixed = c(b0 = 1.98, 0,b1 = 5.5,b2 = 0.25)),  # device7
-			verbose = T
-			)
-summary(lhs.nlme6)
+#			start = list(fixed = c(b0 = 1.98, 0,b1 = 5.5,b2 = 0.25)),  # device7
+#			verbose = T
+#			)
+#summary(lhs.nlme6)
 
 #####################
 #	Check level 1	#
