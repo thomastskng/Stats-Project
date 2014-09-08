@@ -14,7 +14,8 @@ This contains some R codes that I used to perform parameter estimation for mixtu
 
 3. [Bayesian Hierarchical Model](https://github.com/thomastskng/Stats-Project/tree/master/Bayesian-stats)
 -----------------------------------
-This is one of the courseworks that I did during my master degree, which I believe is of paramount importance. This project essentially reproduce the Example 5.5 (combining information from Educational testing experiments in 8 schools) in Andrew Gelman's Bayesian Data Analysis. I left out the derivation of the the formulae in the pdf. Files under this project are a bit unstructured but I will try to improve it if I have time. 
+This is one of the projects which I believe is of paramount importance. This project essentially reproduce the Example 5.5 (combining information from Educational testing experiments in 8 schools) in Andrew Gelman's Book 'Bayesian Data Analysis'. 
+Files under this project are a bit unstructured but I will try to improve it if I have time. 
 
 
 
