@@ -5,7 +5,8 @@ I have written a pdf report for each project. Please take a look if you are inte
 
 1. [Nonlinear mixed effect model](https://github.com/thomastskng/Stats-Project/tree/master/Nonlinear-Regressions-and-mixed-effects-models)
 ----------------------------------
-I worked on developing a mixed effect model for a sensor device, which was created by Silicon Valley engineers and manufactured by companies in Asia. 
+I worked on developing a mixed effect model for a sensor device, which was created by Silicon Valley engineers and manufactured by companies in Asia. The **non-linear mixed effect model** is in [here](https://github.com/thomastskng/Stats-Project/tree/master/Nonlinear-Regressions-and-mixed-effects-models/report3). The project is **still in progress**.   
+
 
 2. [Netflow Traffic Flow Data Analysis](https://github.com/thomastskng/Stats-Project/tree/master/master-thesis)
 ---------------------------------------
