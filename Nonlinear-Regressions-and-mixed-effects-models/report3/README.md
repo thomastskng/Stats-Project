@@ -25,6 +25,10 @@ The fitted values of Level II of the population are represented by the black col
 
 #### NLME Diagnostics plot (in progress)
 ------------------------------------------
+From the first two reports, we suspect that there is a saturation effect within
+the devices. This means the alcohol gets trapped in the device and thus, leads to
+bias in the parameter estimates. 
+
 An exploratory plot of all the devices (those with CP1 measurements only) looks like:
 
 ![alt text](https://github.com/thomastskng/Stats-Project/blob/master/Nonlinear-Regressions-and-mixed-effects-models/report3/Exploratory_Data_Analysis.png)
