@@ -18,7 +18,7 @@ This contains some R codes that I used to perform parameter estimation for mixtu
 This is one of the projects which I believe is of paramount importance. This project essentially reproduce the Example 5.5 (combining information from Educational testing experiments in 8 schools) in Andrew Gelman's Book 'Bayesian Data Analysis'. 
 Files under this project are a bit unstructured but I will try to improve it if I have time. 
 
-
-
+4. [Testing]()
+------------------------------------
 
 
